@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="jquery.js">
+    </script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="row heading">
+            <div class="col-lg-12">
+                <h3 class="text-center"> 300 IQ Questions </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+
+            </div>
+            <div class="col-lg-7">
+
+                <div class="quiz-formulation">
+                    <p id="time"></p>
+                    <p id="currenttime" class="text-center"> </p>
+                    <p id="myp"> Hello Everyone </p>
+
+                    <p id="questions"> </p>
+                    <form name="users-ans" method="#" action="#">
+
+
+
+
+                        <div class="form-check">
+                            <input type="radio" name="ans" class="form-check-input" id="ans1">
+                            <label class="form-check-label" id="option1"></label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="radio" name="ans" class="form-check-input" id="ans2">
+                            <label id="option2" class="form-check-label"></label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="radio" name="ans" class="form-check-input" id="ans3">
+                            <label id="option3" class="form-check-label"></label>
+                        </div>
+
+                        <div class="form-check">
+                            <input type="radio" name="ans" class="form-check-input" id="ans4">
+                            <label id="option4" class="form-check-label"></label>
+                        </div>
+
+                        <button type="button" name="button" value="button" onclick="next_click()" id="a" class="btn btn-sm text-white"> Next </button>
+                        <button type="button" name="button" value="button" onclick="prev_click()" id="b" class="btn btn-sm text-white"> Previous </button>
+                        <button type="button" name="button" value="button" onclick="result()" id="c" class="btn btn-sm text-white"> Submit </button>
+                        <button type="button" name="button" value="button" onclick="resultt()" id="d" class="btn btn-sm text-white"> Submit </button>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-1">
+
+            </div>
+            <div class="col-lg-10">
+                <div class="resultStore">
+
+                    <h4 id="tag"></h4>
+
+
+                    <p id="correct"></p>
+                    <p id="wrong"></p>
+                    <p id="pointScored"></p>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-1">
+                <p>
+                    <input type="button" id="mybtn" value="Click" class="btn btn-success">
+                </p>
+                <input type="button" id="mybtnn" value="Click" class="btn btn-success">
+
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+<script src="javascript/java.js">
+</script>
+
+<script src="javascript/jquerrr.js">
+</script>
+
+
+
+</html>
